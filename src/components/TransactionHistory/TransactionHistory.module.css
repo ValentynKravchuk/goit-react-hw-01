@@ -1,0 +1,27 @@
+.wrapper {
+}
+.table {
+  table-layout: auto;
+  width: 760px;
+  border-collapse: collapse;
+  margin: 60px auto;
+}
+.thead {
+  color: white;
+  background-color: #2e2e33;
+  border: 1px solid #212126;
+}
+.tbody {
+  padding: 10px 0;
+}
+.tr {
+  padding: 10px 0;
+  border: 1px solid #212126;
+  text-align: center;
+}
+.td {
+  border: 1px solid #212126;
+}
+.tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
